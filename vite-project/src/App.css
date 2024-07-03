@@ -4,3 +4,43 @@ body{
   max-width: 100%;
 }
 
+.character {
+  border-color: black;
+  border: 2px solid;
+  width: 88%;
+  height: 250px;
+  margin: 10px 10px;
+  transition: color .4s linear;
+}
+
+.character:hover{
+  border-color: red;
+  height: 255px;
+  width: 92%;
+  margin: 5px 5px;
+}
+
+.character h3 {
+  margin: 2px 0px 0px 10px;
+}
+
+.character h5 {
+  margin: 5px 10px 5px 10px;
+}
+
+.logo_character {
+  height: 60%;
+  border-bottom: 1px solid black;
+}
+
+.characters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.character img {
+  height: 100%;
+  width: 100%;
+}
+
