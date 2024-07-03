@@ -37,7 +37,11 @@ function Body(){
       <div className='body_'>
         <div className='body__inner'>
           <div className='search'>
-
+            <h1>Characters</h1>
+            <div>
+            <input type="text" placeholder="Search for Charaters by Name"/>
+            <button className='search_button'>SEARCH</button>
+            </div>
           </div>
           <div className='characters'>
             <Character />

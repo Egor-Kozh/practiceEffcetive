@@ -4,6 +4,32 @@ body{
   max-width: 100%;
 }
 
+.search{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 72.9%;
+  height: 30px;
+}
+
+.search button {
+  width: 22.5%;
+  height: 35px;
+  margin-left: 2.8%;
+  background-color: rgb(208, 208, 28);
+  border: 1px solid rgba(162, 162, 8, 0.715);
+  color: white;
+}
+
+.search button:hover {
+  cursor: pointer;
+  background-color: rgb(226, 226, 19);
+}
+
+
+
 .character {
   border-color: black;
   border: 2px solid;
