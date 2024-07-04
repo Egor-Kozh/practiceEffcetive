@@ -24,7 +24,7 @@ function Header() {
         </div>
         <nav className='nav'>
           <a className='nav__link' href='/'>Characters</a>
-          <a className='nav__link' href="#">Comics</a>
+          <a className='nav__link' href="/comics">Comics</a>
         </nav>
       </header>
     </>

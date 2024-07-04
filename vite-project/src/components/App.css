@@ -5,12 +5,12 @@ body{
 }
 
 .search{
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
 
 .search input {
-  width: 72.9%;
+  width: 72%;
   height: 30px;
 }
 
@@ -70,13 +70,60 @@ body{
   justify-items: center;
 }
 
-.character img {
+.logo_character img {
   height: 100%;
   width: 100%;
 }
 
 .info {
   color: black;
+}
+
+.link_characters {
+  text-decoration: none;
+}
+
+
+
+.comics {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  border-color: black;
+  border: 2px solid;
+  width: 90%;
+  height: 350px;
+  margin: 10px 10px;
+  transition: color .4s linear;
+}
+
+
+.comices {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.comics:hover{
+  border-color: red;
+  height: 355px;
+  width: 92%;
+  margin: 5px 5px;
+}
+
+.comics h3 {
+  margin: 2px 0px 0px 10px;
+}
+
+.logo_comics {
+  height: 90%;
+  border-bottom: 1px solid black;
+}
+
+.comics img {
+  height: 100%;
+  width: 100%;
 }
 
 .link_characters {
