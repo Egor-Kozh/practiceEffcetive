@@ -27,4 +27,5 @@
   
   .nav__link:hover{
     color: yellow;
+    text-decoration: underline;
   }

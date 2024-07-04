@@ -1,9 +1,9 @@
 import './App.css'
 import './Header.css'
 import './Footer.css'
-import marvel_logo from '/public/marvel-logo.png'
-import marvel_logo_gr from '/public/marvel-grey.png'
-import spider_man from '/public/spider_man.jpg'
+import marvel_logo from '/marvel-logo.png'
+import marvel_logo_gr from '/marvel-grey.png'
+import spider_man from '/spider_man.jpg'
 
 function App() {
   return (
@@ -71,7 +71,7 @@ function Footer() {
           <img src={ marvel_logo_gr } alt="marvel-logo" className='marvel-logo-grey'/>
         </div>
         <h2>Data provided by Marvel. © 2024 MARVEL</h2>
-        <a href="developer.marvel.com">developer.marvel.com</a>
+        <a href="https://developer.marvel.com/">developer.marvel.com</a>
       </header>
     </>
   )
@@ -86,7 +86,10 @@ function Character() {
         </div>
         <div className='info'>
           <h3>Spider Man</h3>
-          <h5>A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko. Since his first appearance on the pages of Amazing Fantasy comic.</h5>
+          <div className='description'>
+            A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.
+             Since his first appearance on the pages of Amazing Fantasy comics.
+          </div>
         </div>
       </div>
     </>

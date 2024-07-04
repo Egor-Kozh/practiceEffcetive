@@ -31,6 +31,11 @@ body{
 
 
 .character {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
   border-color: black;
   border: 2px solid;
   width: 88%;
@@ -50,7 +55,7 @@ body{
   margin: 2px 0px 0px 10px;
 }
 
-.character h5 {
+.description {
   margin: 5px 10px 5px 10px;
 }
 
