@@ -42,6 +42,7 @@ body{
   height: 250px;
   margin: 10px 10px;
   transition: color .4s linear;
+  text-decoration: none;
 }
 
 .character:hover{
@@ -73,5 +74,9 @@ body{
 .character img {
   height: 100%;
   width: 100%;
+}
+
+.info {
+  color: black;
 }
 

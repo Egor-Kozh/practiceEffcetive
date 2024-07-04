@@ -23,7 +23,7 @@ function Header() {
           <img src={ marvel_logo } alt="marvel-logo" className='marvel-logo-red'/>
         </div>
         <nav className='nav'>
-          <a className='nav__link' href="#">Characters</a>
+          <a className='nav__link' href='/'>Characters</a>
           <a className='nav__link' href="#">Comics</a>
         </nav>
       </header>
