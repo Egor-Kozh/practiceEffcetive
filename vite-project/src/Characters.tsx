@@ -58,7 +58,7 @@ class Characters extends React.Component {
         return (
             <div className="characters">
                 {this.characters.map((el) => (
-                    <a ref= {`/character/${el.id}`} className="link_characters">
+                    <Link to= {`/character/${el.id}`} className="link_characters">
                         <div className='character'>
                             <div className='logo_character'>
                                 <img src={el.logo} alt="logo" className='logo'/>
@@ -70,7 +70,7 @@ class Characters extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 ))}
             </div>
         )

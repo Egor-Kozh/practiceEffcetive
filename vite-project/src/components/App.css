@@ -42,7 +42,6 @@ body{
   height: 250px;
   margin: 10px 10px;
   transition: color .4s linear;
-  text-decoration: none;
 }
 
 .character:hover{
@@ -80,3 +79,6 @@ body{
   color: black;
 }
 
+.link_characters {
+  text-decoration: none;
+}
