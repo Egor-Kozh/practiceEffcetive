@@ -1,5 +1,7 @@
 import React from "react"
-import './App.css'
+import './components/App.css'
+import { Link } from "react-router-dom"
+import Character_info from "./pages/Character_info"
 
 class Characters extends React.Component {
     characters = [
@@ -57,23 +59,24 @@ class Characters extends React.Component {
         return (
             <div className="characters">
                 {this.characters.map((el) => (
-                    <div className='character'>
-                        <div className='logo_character'>
-                            <img src={el.logo} alt="logo" className='logo'/>
-                        </div>
-                        <div className='info'>
-                            <h3>{el.name}</h3>
-                            <div className='description'>
-                                {el.description}
+                    <Link to= {`/character/${el.id}`}>
+                        <Character_info name={el.name} description={el.description} logo={el.logo}/>
+                        <div className='character'>
+                            <div className='logo_character'>
+                                <img src={el.logo} alt="logo" className='logo'/>
+                            </div>
+                            <div className='info'>
+                                <h3>{el.name}</h3>
+                                <div className='description'>
+                                    {el.description}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
-
         )
-    }
-        
+    }    
 }
 
 export default Characters

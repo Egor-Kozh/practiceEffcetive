@@ -1,67 +1,70 @@
-import './App.css'
-import './Header.css'
-import './Footer.css'
-import Characters from './Characters'
-import marvel_logo from '/marvel-logo.png'
-import marvel_logo_gr from '/marvel-grey.png'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import HomePage from './pages/HomePage'
+import Character_info from './pages/Character_info'
 
 function App() {
   return (
     <>
-      <Header />
-      <Body />
-      <Footer />
+      <Routes>
+        <Route path='/' element= {<Layout />}>
+          <Route index element={<HomePage/>} />
+          <Route path='/character/:id' element={<Character_info/>} />
+        </Route>
+      </Routes>
     </>
   )
 }
 
-function Header() {
-  return (
-    <>
-      <header className='header'>
-        <div className='marvel_logo'>
-          <img src={ marvel_logo } alt="marvel-logo" className='marvel-logo-red'/>
-        </div>
-        <nav className='nav'>
-          <a className='nav__link' href="#">Characters</a>
-          <a className='nav__link' href="#">Comics</a>
-        </nav>
-      </header>
-    </>
-  )
-}
-
-function Body(){
-  return (
-    <>
-      <div className='body_'>
-        <div className='body__inner'>
-          <div className='search'>
-            <h1>Characters</h1>
-            <div>
-            <input type="text" placeholder="Search for Charaters by Name"/>
-            <button className='search_button'>SEARCH</button>
-            </div>
-          </div>
-          <Characters />
-        </div>
-      </div>
-    </>
-  )
-}
-
-function Footer() {
-  return (
-    <>
-      <header className='footer'>
-        <div className='marvel_logo_footer'>
-          <img src={ marvel_logo_gr } alt="marvel-logo" className='marvel-logo-grey'/>
-        </div>
-        <h2>Data provided by Marvel. © 2024 MARVEL</h2>
-        <a href="https://developer.marvel.com/">developer.marvel.com</a>
-      </header>
-    </>
-  )
-}
+const characters = [
+  {
+      id: 1,
+      name: "Spider Man",
+      description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+      logo: "spider_man.jpg",
+  },
+  {
+      id: 2,
+      name: "Iron Man",
+      description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+      logo: "iron_man.jpg",
+  },
+  {
+      id: 3,
+      name: "Dr. Strange",
+      description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+      logo: "dr_strange.jpg",
+  },
+  {
+      id: 4,
+      name: "Tor",
+      description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+      logo: "tor.jpg",
+  },
+  {
+      id: 5,
+      name: "Hulk",
+      description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+      logo: "hulk.jpg",
+  },
+  {
+      id: 6,
+      name: "Captain America",
+      description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+      logo: "сaptain_america.jpg",
+  },
+  {
+      id: 7,
+      name: "Black Panther",
+      description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+      logo: "black_panther.jpg",
+  },
+  {
+      id: 8,
+      name: "Wolverine",
+      description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+      logo: "wolverine.jpg",
+  }
+]
 
 export default App
