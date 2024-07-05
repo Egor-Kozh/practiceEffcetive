@@ -40,66 +40,66 @@ export interface IComices {
 
   export const comices: IComics[] = [
     {
-      id: 0,
-      name: "Amazing Spider Man",
-      logotip: "comics_1.jpg"
+        id: 0,
+        name: "Amazing Spider Man",
+        logotip: "/comics_1.jpg"
     },
     {
         id: 1,
         name: "Back Iron Man",
-        logotip: "comics_2.jpg"
+        logotip: "/comics_2.jpg"
     },
     {
         id: 2,
         name: "Dr. Strange",
-        logotip: "comics_3.jpg"
+        logotip: "/comics_3.jpg"
     },
     {
-        id: 0,
+        id: 3,
         name: "Amazing Spider Man",
-        logotip: "comics_1.jpg"
-      },
-      {
-          id: 1,
-          name: "Back Iron Man",
-          logotip: "comics_2.jpg"
-      },
-      {
-          id: 2,
-          name: "Dr. Strange",
-          logotip: "comics_3.jpg"
-      },
-      {
-        id: 0,
+        logotip: "/comics_1.jpg"
+    },
+    {
+        id: 4,
+        name: "Back Iron Man",
+        logotip: "/comics_2.jpg"
+    },
+    {
+        id: 5,
+        name: "Dr. Strange",
+        logotip: "/comics_3.jpg"
+    },
+    {
+        id: 6,
         name: "Amazing Spider Man",
-        logotip: "comics_1.jpg"
-      },
-      {
-          id: 1,
-          name: "Back Iron Man",
-          logotip: "comics_2.jpg"
-      },
-      {
-          id: 2,
-          name: "Dr. Strange",
-          logotip: "comics_3.jpg"
-      },
-      {
-        id: 0,
+        logotip: "/comics_1.jpg"
+    },
+    {
+        id: 7,
+        name: "Back Iron Man",
+        logotip: "/comics_2.jpg"
+    },
+    {
+        id: 8,
+        name: "Dr. Strange",
+        logotip: "/comics_3.jpg"
+    },
+    {
+        id: 9,
         name: "Amazing Spider Man",
-        logotip: "comics_1.jpg"
-      },
-      {
-          id: 1,
-          name: "Back Iron Man",
-          logotip: "comics_2.jpg"
-      },
-      {
-          id: 2,
-          name: "Dr. Strange",
-          logotip: "comics_3.jpg"
-      },
-  ]
+        logotip: "/comics_1.jpg"
+    },
+    {
+        id: 10,
+        name: "Back Iron Man",
+        logotip: "/comics_2.jpg"
+    },
+    {
+        id: 11,
+        name: "Dr. Strange",
+        logotip: "/comics_3.jpg"
+    },
+]
 
 
 export default Comices_

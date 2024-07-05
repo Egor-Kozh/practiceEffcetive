@@ -99,6 +99,9 @@ body{
   transition: color .4s linear;
 }
 
+.link_comices {
+  text-decoration: none;
+}
 
 .comices {
   display: grid;
