@@ -3,6 +3,8 @@ import './Character_info.css'
 import { ICharacters } from '../Characters'
 import { useLocation} from 'react-router-dom'
 import { characters } from './HomePage';
+import { Link } from 'react-router-dom';
+import { IComices, comices } from './Comices';
 
 
 function Character_info_ () {
@@ -30,13 +32,30 @@ export const Character_info: FC<ICharacters> = ({characters}) => {
                     <h3>Description</h3>
                     <p>{characters[from].description}</p>
                 </div>
-                <div className="list_comics">
-
-                </div>
+                <Comices_list comices={comices}/>
             </div>
         </div>
        </>
     )
 }
+
+export const Comices_list: FC<IComices> = ({comices}) => {
+    const location = useLocation()
+    const {comics} = location.state
+
+    return(
+        <div className="list_comics">
+            <h1>Comics</h1>
+            {comics.map((el: any) => (
+                <li>
+                    <Link key={el} to= {`/comics/${el}`} state={{from: el}} className="link_comics">
+                        {comices[el].name}
+                    </Link>
+                </li>
+            ))}
+        </div>
+    )
+}
+
 
 export default Character_info_
