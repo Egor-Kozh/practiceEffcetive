@@ -1,12 +1,13 @@
 .conteiner {
     width: 100%;
     height: 100vh;
-    
+    position: relative;
 }
 
 .logo_info {
-    height: 50%;
+    height: 100%;
     width: 100%;
+    position: absolute;
 }
 
 .logo_info img {
@@ -15,19 +16,74 @@
 }
 
 .bottom_info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 49.2%;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
 }
 
 .description_info {
-    width: 100%;
-    height: 100%;
+    width: 30%;
+    height: 80%;
+    margin-left: 0;
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    display: none;
+} 
+
+.button_description_info{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(24, 24, 24);
+    position: absolute;
+    left: 5%;
+    text-align: center;
+    color:white;
+    opacity: 0.8;
+    bottom: 0;
+}
+
+.button_description_info:hover+.description_info{
+    display: initial;
+}
+.description_info:hover{
+    display: initial;
+}
+
+.button_list_comics{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(24, 24, 24);
+    position: absolute;
+    right: 5%;
+    text-align: center;
+    color:white;
+    opacity: 0.8;
+    bottom: 0;
+}
+
+.button_list_comics:hover+.list_comics{
+    display: initial;
+}
+
+.list_comics:hover{
+    display: initial;
 }
 
 .list_comics {
-    width: 100%;
-    height: 100%;
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    display: none;
 }
 
 .list_comics h2{
@@ -44,7 +100,7 @@ li {
 }
 
 .link_comics {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }

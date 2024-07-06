@@ -26,6 +26,9 @@ export const Character_info: FC<ICharacters> = ({characters}) => {
                 <img src={characters[from].logotip}/>
             </div>
             <div className="bottom_info">
+                <div className='button_description_info'>
+                    <p>Description Hero</p>
+                </div>
                 <div className="description_info">
                     <h2>Character Name</h2>
                     <p>{characters[from].name}</p>
@@ -44,16 +47,21 @@ export const Comices_list: FC<IComices> = ({comices}) => {
     const {comics} = location.state
 
     return(
-        <div className="list_comics">
-            <h2>Comics</h2>
-            {comics.map((el: any) => (
-                <li>
-                    <Link key={el} to= {`/comics/${el}`} state={{from: el}} className="link_comics">
-                        {comices[el].name}
-                    </Link>
-                </li>
-            ))}
-        </div>
+        <>  
+            <div className='button_list_comics'>
+                <p>Comics List</p>
+            </div>
+            <div className="list_comics">
+                <h2>Comics</h2>
+                {comics.map((el: any) => (
+                    <li>
+                        <Link key={el} to= {`/comics/${el}`} state={{from: el}} className="link_comics">
+                            {comices[el].name}
+                        </Link>
+                    </li>
+                ))}
+            </div>
+        </>
     )
 }
 
