@@ -53,6 +53,7 @@ body{
   height: 255px;
   width: 92%;
   margin: 5px 5px;
+  background-color: red;
 }
 
 .character h3 {
