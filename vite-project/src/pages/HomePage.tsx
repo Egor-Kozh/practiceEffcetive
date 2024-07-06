@@ -14,7 +14,7 @@ export const characters: ICharacter[] = [
     {
         id: 0,
         name: "Spider Man",
-        description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
+        description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.  Ditko.Since his first appearance on the pages of Amazing  Ditko.Since his first appearance on the pages of Amazing  Ditko.Since his first appearance on the pages of Amazing  Ditko.Since his first appearance on the pages of Amazing",
         logotip: "/spider_man.jpg",
         comics : [0, 2, 4]
     },

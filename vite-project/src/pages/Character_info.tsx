@@ -27,7 +27,7 @@ export const Character_info: FC<ICharacters> = ({characters}) => {
             </div>
             <div className="bottom_info">
                 <div className='button_description_info'>
-                    <p>Description Hero</p>
+                    <p> &uarr; Description Hero &uarr;</p>
                 </div>
                 <div className="description_info">
                     <h2>Character Name</h2>
@@ -49,7 +49,7 @@ export const Comices_list: FC<IComices> = ({comices}) => {
     return(
         <>  
             <div className='button_list_comics'>
-                <p>Comics List</p>
+                <p> &uarr; Comics List &uarr; </p>
             </div>
             <div className="list_comics">
                 <h2>Comics</h2>

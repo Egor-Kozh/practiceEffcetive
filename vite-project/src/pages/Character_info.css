@@ -24,11 +24,11 @@
 
 .description_info {
     width: 30%;
-    height: 80%;
+    height:fit-content;
     margin-left: 0;
     position: absolute;
     left: 5%;
-    bottom: 20%;
+    bottom: 25%;
     background-color: black;
     color: white;
     opacity: 0.7;
@@ -44,7 +44,7 @@
     text-align: center;
     color:white;
     opacity: 0.8;
-    bottom: 0;
+    bottom: 5%;
 }
 
 .button_description_info:hover+.description_info{
@@ -63,7 +63,7 @@
     text-align: center;
     color:white;
     opacity: 0.8;
-    bottom: 0;
+    bottom: 5%;
 }
 
 .button_list_comics:hover+.list_comics{
@@ -76,9 +76,9 @@
 
 .list_comics {
     width: 30%;
-    height: 60%;
+    height: fit-content;
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     right: 5%;
     background-color: black;
     color: white;
