@@ -30,8 +30,8 @@
     height: 100%;
 }
 
-.list_comics h1{
-    margin: 15px 0 10px 10px;
+.list_comics h2{
+    margin: 20px 0 10px 10%;
 }
 
 p {
@@ -40,11 +40,16 @@ p {
 
 li {
     list-style-type: none;
-    margin: 5px 0 10px 10px;
+    margin: 5px 0 10px 10%;
 }
 
 .link_comics {
     color: black;
     text-decoration: none;
     font-size: 20px;
+}
+
+.link_comics:hover{
+    color: rgb(178, 178, 18);
+    font-size: 21px;
 }

@@ -23,21 +23,21 @@ export const characters: ICharacter[] = [
         name: "Iron Man",
         description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
         logotip: "/iron_man.jpg",
-        comics : [0, 2, 4]
+        comics : [1, 3, 5]
     },
     {
         id: 2,
         name: "Dr. Strange",
         description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
         logotip: "/dr_strange.jpg",
-        comics : [0, 2, 4]
+        comics : [0, 1, 2]
     },
     {
         id: 3,
         name: "Tor",
         description: "A superhero appearing in Marvel Comics, created by Stan Lee and Steve Ditko.Since his first appearance on the pages of Amazing Fantasy comics.",
         logotip: "/tor.jpg",
-        comics : [0, 2, 4]
+        comics : [3, 4, 5]
     },
     {
         id: 4,

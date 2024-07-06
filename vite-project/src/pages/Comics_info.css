@@ -9,7 +9,6 @@
 }
 
 .comics_inner_info {
-    border: 2px solid black;
     width: 40%;
     height: 90%;
     margin: 3% 30% 0 30% ;
@@ -18,7 +17,7 @@
 .comics_info_logo {
     width: 100%;
     height: 95%;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
 }
 
 .comics_info_name {

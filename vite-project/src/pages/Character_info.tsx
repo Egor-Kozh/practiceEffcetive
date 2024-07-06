@@ -45,7 +45,7 @@ export const Comices_list: FC<IComices> = ({comices}) => {
 
     return(
         <div className="list_comics">
-            <h1>Comics</h1>
+            <h2>Comics</h2>
             {comics.map((el: any) => (
                 <li>
                     <Link key={el} to= {`/comics/${el}`} state={{from: el}} className="link_comics">

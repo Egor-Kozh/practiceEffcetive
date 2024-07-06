@@ -16,7 +16,7 @@ function Body_Comics(){
             <div className='search'>
               <h1>Comices ({comices.length})</h1>
               <div>
-              <input type="text" placeholder="Search for Comices by Name"/>
+              <input type="text" placeholder="Search for Comics by Name"/>
               <button className='search_button'>SEARCH</button>
               </div>
             </div>
