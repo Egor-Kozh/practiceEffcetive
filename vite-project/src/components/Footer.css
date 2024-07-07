@@ -1,0 +1,26 @@
+.footer {
+    background-color: rgb(154, 154, 154);
+}
+
+.footer h2{ 
+    margin: 2px 2px;
+    color: white;
+    font-size: 12px;
+    margin-left: 32px;
+}
+
+.footer a {
+    margin-top: 0;
+    color: white;
+    text-decoration: none;
+    margin-left: 32px;
+    font-size: 12px;
+}
+
+.marvel-logo-grey {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    width: 120px;
+    height: 60px;
+}

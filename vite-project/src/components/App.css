@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  height: 100%;
+  max-width: 100%;
+}
+
+.search{
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.search h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search input {
+  width: 72%;
+  height: 30px;
+}
+
+.search button {
+  width: 22.5%;
+  height: 35px;
+  margin-left: 2.8%;
+  background-color: rgb(208, 208, 28);
+  border: 1px solid rgba(162, 162, 8, 0.715);
+  color: white;
+}
+
+.search button:hover {
+  cursor: pointer;
+  background-color: rgb(226, 226, 19);
+}
+
+
+
+.character {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  border-color: black;
+  border: 2px solid;
+  width: 88%;
+  height: 250px;
+  margin: 10px 10px;
+  transition: color .4s linear;
+}
+
+.character:hover{
+  border-color: red;
+  height: 255px;
+  width: 92%;
+  margin: 5px 5px;
+  background-color: red;
+}
+
+.character h3 {
+  margin: 2px 0px 0px 10px;
+}
+
+.description {
+  margin: 5px 10px 5px 10px;
+}
+
+.logo_character {
+  height: 60%;
+  border-bottom: 1px solid black;
+}
+
+.characters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.logo_character img {
+  height: 100%;
+  width: 100%;
+}
+
+.info {
+  color: black;
+}
+
+.link_characters {
+  text-decoration: none;
+}
+
+
+
+.comics {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  border-color: black;
+  border: 2px solid;
+  width: 90%;
+  height: 350px;
+  margin: 10px 10px;
+  transition: color .4s linear;
+}
+
+.link_comices {
+  text-decoration: none;
+}
+
+.comices {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.comics:hover{
+  border-color: red;
+  height: 355px;
+  width: 92%;
+  margin: 5px 5px;
+}
+
+.comics h3 {
+  margin: 2px 0px 0px 10px;
+}
+
+.logo_comics {
+  height: 90%;
+  border-bottom: 1px solid black;
+}
+
+.comics img {
+  height: 100%;
+  width: 100%;
+}
+
+.link_characters {
+  text-decoration: none;
+}
